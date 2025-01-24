@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="section1" class="hello d-flex flex-column">
+        <h4>Conference Home Page:</h4>
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/conference-img.png" width=100% height="250px">
+        <center>
+            <h1>The Things<br>Conference</h1>
+            <h6>Redefining the future to IoT with<br>LoRaWAN</h6><br>
+            <button class="btn btn-primary" onclick="display('section2')">Know More</button>
+        </center>
+    </div>
+    <div id="section2">
+        <h4>Conference Details Page:</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vKJ6nXE_6Hc?si=H66NZCHORCKpojh0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <center>
+            <h3>The Things Conference</h3>
+            <h6>Join Asia's Largest Conference on LoRaWAN</h6>
+            <table>
+                <tr>
+                    <td>
+                        <h2>1400+</h2>
+                        <h6>Attendees</h6>
+                    </td>
+                    <td>
+                        <h2>100+</h2>
+                        <h6>Workshops</h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>120+</h2>
+                        <h6>Speakers</h6>
+                    </td>
+                    <td>
+                        <h2>10+</h2>
+                        <h6>Countries</h6>
+                    </td>
+                </tr>
+            </table>
+            <button class="btn btn-primary" onclick="display('section1')">Back</button>
+        </center>
+        <div class="d-flex flex-row"></div>
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+</body>
+
+</html>

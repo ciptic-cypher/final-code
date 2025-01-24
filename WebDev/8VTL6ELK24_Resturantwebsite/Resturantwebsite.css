@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.why-us-container {
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://wallpaperaccess.com/full/3353916.jpg");
+    background-size: cover;
+}
+
+.why-us-heading {
+    color: white;
+}
+
+.why-us-heading:hover {
+    color: #eee;
+}
+
+.why-us-para {
+    color: #ffffff;
+
+}
+
+.why-us-button1 {
+    border: none;
+    border-radius: 10px;
+    background-color: #60f9ae;
+    padding: 10px 15px 10px 15px;
+    color: white;
+}
+
+.why-us-button2 {
+    border: 5px solid #69f0ae;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px 15px 10px 15px;
+    color: #69f0ae;
+}
+
+.why-choose-container {
+
+    font-family: Roboto;
+}
+
+.why-choose-heading {
+    color: #eee;
+    width: 100%;
+}
+
+.why-choose-icon {
+    background-color: #ffffff;
+    /* height: 50vh; */
+    /* width: 27%; */
+    border: black solid 2px;
+
+
+
+}
+
+.menu-section {
+    background-color: #ffffff;
+
+
+}
+
+.icon {
+    border-radius: 20px;
+}
+
+.imgsr {
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.icon-a {
+    font-size: 36px;
+    color: red;
+}
+
+.icon-out {
+    margin: 5px;
+    border-radius: 60px;
+    height: 80px;
+    width: 80px;
+    background-color: pink;
+    padding: 22px 16px 14px 22px;
+}
+
+p:hover {
+    color: pink;
+}
+
+button:hover {
+    background-color: #043927;
+    transition: 3s;
+}
+
+.modal-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+.bg-gradient {
+    background-image: radial-gradient(white, #eee, #fff8bd, yellow, #fae38c);
+}
